@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Женские сумочки</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>Женские сумочки</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Главная</a></li>
+                    <li><a href="#projects" class="nav-link">Приложение</a></li>
+                    <li><a href="#excel-template" class="nav-link">Таблица Excel</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Женские сумочки</h1>
+                <p class="hero-subtitle">Управление данными, фильтрация, сортировка и работа с Excel таблицами для Windows и Android.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Скачать приложение</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-avatar">
+                    <img src="images/logo.png" alt="Логотип сумок" class="hero-logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Скачать приложение</h2>
+            <div class="projects-grid single-project">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Единый функционал для ПК и мобильных устройств</h3>
+                        <p>Приложение для управления и аналитики каталога женских сумочек с полным набором функций для работы с данными. Возможности: создание новых записей, удаление ненужных, редактирование существующих, расширенная фильтрация по различным параметрам, сортировка по любому полю, загрузка данных из Excel, экспорт данных в Excel, сохранение изменений обратно в таблицу.</p>
+                        
+                        <div class="platform-downloads">
+                            <!-- Windows Download -->
+                            <div class="platform">
+                                <h5><i class="fab fa-windows"></i> Для Windows</h5>
+                                <div class="download-options">
+                                    <div class="download-option">
+                                        <a href="apps/BagCatalog.exe" download class="btn btn-primary install-btn">
+                                            <i class="fas fa-download"></i>
+                                            Скачать для Windows
+                                        </a>
+                                        <p class="option-label">Установка по ссылке</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Android Download -->
+                            <div class="platform">
+                                <h5><i class="fab fa-android"></i> Для Android</h5>
+                                <div class="download-options">
+                                    <div class="download-option">
+                                        <a href="qr-codes/android-app-qr.png" target="_blank">
+                                            <img src="qr-codes/android-app-qr.png" alt="QR-код для скачивания Android приложения" class="qr-code-image">
+                                        </a>
+                                        <p class="option-label">Вариант 1 (QR-код)</p>
+                                    </div>
+                                    <div class="download-option">
+                                        <a href="apps/BagHands.apk" download class="btn btn-primary install-btn">
+                                            <i class="fas fa-download"></i>
+                                            Установить
+                                        </a>
+                                        <p class="option-label">Вариант 2 (прямая ссылка)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Excel Template Section -->
+    <section id="excel-template" class="excel-template">
+        <div class="container">
+            <h2 class="section-title">Таблица Excel</h2>
+            <div class="excel-content">
+                <div class="excel-info">
+                    <h3>Скачайте таблицу для работы с приложением</h3>
+                    <p>Excel таблица содержит все обязательные поля для корректной работы приложения: Название, Производитель, Тип сумки, Материал, Внутренняя отделка, Цвет, Вид застежки, Размер (см), Страна производства, Цена (руб), Количество.</p>
+                </div>
+                <div class="excel-download">
+                    <div class="download-options">
+                        <div class="download-option">
+                            <a href="qr-codes/excel-template-qr.png" target="_blank">
+                                <img src="qr-codes/excel-template-qr.png" alt="QR-код для скачивания таблицы" class="qr-code-image">
+                            </a>
+                            <p class="option-label">Вариант 1 (QR-код)</p>
+                        </div>
+                        <div class="download-option">
+                            <a href="excel/template.xlsx" download class="btn download-btn">
+                                <i class="fas fa-file-excel"></i>
+                                Скачать таблицу Excel
+                            </a>
+                            <p class="option-label">Вариант 2 (кнопка)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h4>Разработчик</h4>
+                    <div class="footer-divider"></div>
+                    <p><strong><i class="fas fa-user"></i> Быков Владислав Валентинович</strong></p>
+                    <p><i class="fas fa-graduation-cap"></i> Группа ИС-931</p>
+                </div>
+                <div class="footer-contact">
+                    <h4>Контакты</h4>
+                    <div class="footer-divider"></div>
+                    <p><i class="fas fa-envelope"></i> vldbukov@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> 89236123093</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
